@@ -1,0 +1,174 @@
+
+body{
+   
+    font-family: sans-serif !important;
+    
+
+}
+.menu-bar{
+    background:whitesmoke!important;
+    text-align: center !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+
+}
+.menu-bar ul{
+    display: inline-flex !important;
+    list-style: none !important;
+    position: relative;
+    left: 290px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+
+}
+.menu-bar ul li{
+    width: 150px !important;
+    margin: 10px !important;
+    padding: 10px !important;
+}
+.menu-bar ul li a{
+    text-decoration: none !important;
+    color: rgb(12, 11, 11) !important;
+    font-size: 17px !important;
+    
+}
+.active,.menu-bar ul li:hover{
+    background: #d4c995 !important;
+    
+    border-radius: 10px !important;
+   
+    }
+   
+.menu-bar .fas{
+    margin-right: 5px !important;
+}
+.sub-menu-1{
+    display: none !important;
+    z-index: 2;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block !important;
+    position: absolute !important;
+    
+    background: whitesmoke !important;
+    margin-top: 10px !important;
+    margin-left: -30px !important;
+    font-size: 15px !important;
+    
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul {
+        display: block !important;
+        position: relative !important;
+        left: -19px !important;
+        z-index: 2;
+        
+    
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+        width: 135px !important;
+        height: 44px;
+        padding: 7px !important;
+        border-bottom: solid 2px rgb(173, 173, 173) !important;
+        background: transparent !important;
+        text-align: center !important;
+        border-radius: 0px !important;
+        cursor: pointer !important;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color: #9b9b0e !important;
+    }
+.slider{
+    position: relative;
+    top: 125px;
+    width: 1550px;
+   
+    z-index: 1;
+    margin: auto;
+    
+}
+.cizgi{
+    position: relative;
+    width: 81.5%;
+    height: 5px;
+    background-color: black;
+    top: 200px;
+    left: 177px;
+}
+.alt{
+    position: relative;
+    width: 1550px;
+    height: 500px;
+    
+    border: 2px solid black;
+    top: 290px;
+    left: 180px;
+}
+.kutu1{
+    position: relative;
+    width: 290px;
+    height: 400px;
+    transition: 1.4s ease;
+    float: left;
+    margin-left: 45px;
+    margin-right: 50px;
+    top: 55px;
+}
+.alt img:hover{
+    transform:  scale(1.1);
+    transition: all 1s;
+}
+.altcızgı{
+    position: relative;
+    width: 81.5%;
+    height: 5px;
+    background-color: black;
+    top: 400px;
+    left: 177px;
+}
+.alt2{
+    position: relative;
+    width: 1550px;
+    height: 500px;
+    
+    border: 2px solid black;
+    top: 500px;
+    left: 180px;
+}
+.kutu2{
+    position: relative;
+    width: 290px;
+    height: 400px;
+    transition: 1.4s ease;
+    float: left;
+    margin-left: 45px;
+    margin-right: 50px;
+    top: 65px;
+}
+.alt2 img:hover{
+    transform:  scale(1.1);
+    transition: all 1s;
+}
+.foter{
+    position: relative;
+    top: 670px;
+    background-color: gray;
+}
+.logo{
+    position: relative;
+    left: -200px;
+    top: -2px;
+}
+.y1{
+font-size: 40px;
+position: relative;
+left: -200px;
+top: 16px;
+font-weight: bold;
+font-family: 'Times New Roman';
+}
+.y2{
+    color: #9b9b0e ;
+}

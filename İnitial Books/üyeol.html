@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnitial Books</title>
+    <link rel="Shortcut Icon"  href="logo.png"  type="image/x-icon">
+    <style>
+        
+        .ana{
+            width: 500px;
+            height:650px;
+            background-color: #d4c995;
+            position: relative;
+            margin: auto;
+            top: 129px;
+            border: 2px solid black;
+            border-radius: 25px;
+
+        }
+        .ust{
+            position: relative;
+            left: 170px;
+            top:105px;
+            font-size: 35px;
+            
+        }
+        .buton{
+            background-color: green;
+            position: relative;
+            top: 280px;
+           left: 190px;
+           width: 120px;
+           height: 40px;
+           border-radius: 20px;
+        }
+        .buton:hover{
+            background-color: #9b9b0e;
+            color: white;
+            
+        }
+        .resim {
+            position: absolute;
+            opacity: 0.3;
+           margin-top: -10px;
+           margin-left: -10px;
+       }
+       input{
+           border-radius: 20px;
+       }
+       a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="iç">
+        <img class="resim" src="cc.jpg"width="100%" height="100%" alt="">
+    <div class="ana">
+        <div class="renk">
+
+        </div>
+            <div class="ust">
+                 KAYIT OL 
+            </div>
+            <div class="sart">
+                <form action="">
+                    <input required style="position: relative; top: 170px; left: 120px; width: 250px; height: 30px; outline: none; color: black; background-color:rgb(192, 184, 184)"  type="email" placeholder="                       AD/SOYAD">
+                    <input required style="position: relative; top: 190px; left: 120px; width: 250px; height: 30px; outline: none; color: black; background-color:rgb(192, 184, 184)"  type="email" placeholder="                       E-POSTA">
+                    <input required maxlength="12" minlength="8" style="position: relative; top: 210px; left: 120px; width: 250px; height: 30px; outline: none; background-color:rgb(192, 184, 184)" type="password" placeholder="                          Parola">
+                    <input required maxlength="12" minlength="8" style="position: relative; top: 230px; left: 120px; width: 250px; height: 30px; outline: none; background-color:rgb(192, 184, 184)" type="password" placeholder="                        Parola Tekrar">
+                </form>
+                <button class="buton"><a href="anasayfa.html">Kayıt Ol</a></button>
+            </div>
+    </div>
+    </div>
+    
+</body>
+</html>
